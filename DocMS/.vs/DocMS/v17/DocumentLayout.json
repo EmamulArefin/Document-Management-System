@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|d:\\university\\10th semester\\.net\\final term\\docms\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|solutionrelative:controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860E1A9-A92E-4A8B-A85E-C0C2DA128A11}|..\\BLL\\BLL.csproj|d:\\university\\10th semester\\.net\\final term\\bll\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860E1A9-A92E-4A8B-A85E-C0C2DA128A11}|..\\BLL\\BLL.csproj|d:\\university\\10th semester\\.net\\final term\\bll\\dtos\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|d:\\university\\10th semester\\.net\\final term\\docms\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754E3BFB-A0A7-4755-8A21-2FE3184FF548}|..\\DAL\\DAL.csproj|d:\\university\\10th semester\\.net\\final term\\dal\\repos\\filerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860E1A9-A92E-4A8B-A85E-C0C2DA128A11}|..\\BLL\\BLL.csproj|d:\\university\\10th semester\\.net\\final term\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754E3BFB-A0A7-4755-8A21-2FE3184FF548}|..\\DAL\\DAL.csproj|d:\\university\\10th semester\\.net\\final term\\dal\\ef\\file_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|d:\\university\\10th semester\\.net\\final term\\docms\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|solutionrelative:auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|d:\\university\\10th semester\\.net\\final term\\docms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|d:\\university\\10th semester\\.net\\final term\\docms\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEDBCF7-CC1C-4C4D-9CD0-2669F4ACB778}|DocMS.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754E3BFB-A0A7-4755-8A21-2FE3184FF548}|..\\DAL\\DAL.csproj|d:\\university\\10th semester\\.net\\final term\\dal\\repos\\tagrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754E3BFB-A0A7-4755-8A21-2FE3184FF548}|..\\DAL\\DAL.csproj|d:\\university\\10th semester\\.net\\final term\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860E1A9-A92E-4A8B-A85E-C0C2DA128A11}|..\\BLL\\BLL.csproj|d:\\university\\10th semester\\.net\\final term\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileDTO.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\DTOs\\FileDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTOs\\FileDTO.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\DTOs\\FileDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTOs\\FileDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:31:26.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBgAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:30:05.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileRepo.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\Repos\\FileRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\FileRepo.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\Repos\\FileRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\FileRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:24:05.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "File_Info.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\EF\\File_Info.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\EF\\File_Info.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\EF\\File_Info.cs",
+              "RelativeToolTip": "..\\DAL\\EF\\File_Info.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:11:31.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:34:29.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:54:37.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Services\\AuthService.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:06:58.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Services\\FileService.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\BLL\\Services\\FileService.cs",
+              "RelativeToolTip": "..\\BLL\\Services\\FileService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAEgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:06:54.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:15:06.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileController.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Controllers\\FileController.cs",
+              "RelativeToolTip": "Controllers\\FileController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:31:45.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TagRepo.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\Repos\\TagRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\TagRepo.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DAL\\Repos\\TagRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\TagRepo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:38:32.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:19:11.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Logged.cs",
+              "DocumentMoniker": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Auth\\Logged.cs",
+              "RelativeDocumentMoniker": "Auth\\Logged.cs",
+              "ToolTip": "D:\\University\\10th Semester\\.Net\\Final Term\\DocMS\\Auth\\Logged.cs",
+              "RelativeToolTip": "Auth\\Logged.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:55:16.454Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

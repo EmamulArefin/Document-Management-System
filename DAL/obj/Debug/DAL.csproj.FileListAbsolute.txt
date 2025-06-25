@@ -1,0 +1,12 @@
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\DAL.dll
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\DAL.pdb
+D:\University\10th Semester\.Net\Final Term\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\University\10th Semester\.Net\Final Term\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\University\10th Semester\.Net\Final Term\DAL\obj\Debug\DAL.dll
+D:\University\10th Semester\.Net\Final Term\DAL\obj\Debug\DAL.pdb
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\DAL.dll.config
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\EntityFramework.dll
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\EntityFramework.xml
+D:\University\10th Semester\.Net\Final Term\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\10th Semester\.Net\Final Term\DAL\obj\Debug\DAL.csproj.Up2Date

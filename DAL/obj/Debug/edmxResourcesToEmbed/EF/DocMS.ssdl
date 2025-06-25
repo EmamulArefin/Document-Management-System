@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DocMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="File_Info">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="F_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Path" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UploadedAt" Type="datetime" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Tag_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Token">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Token_Key" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Created_At" Type="datetime" Nullable="false" />
+    <Property Name="Expire_At" Type="datetime" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pass" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_File_Info_Tag">
+    <End Role="Tag" Type="Self.Tag" Multiplicity="1" />
+    <End Role="File_Info" Type="Self.File_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tag">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="File_Info">
+        <PropertyRef Name="Tag_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_Info_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="File_Info" Type="Self.File_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="File_Info">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Token_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Token" Type="Self.Token" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Token">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DocMSModelStoreContainer">
+    <EntitySet Name="File_Info" EntityType="Self.File_Info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tag" EntityType="Self.Tag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Token" EntityType="Self.Token" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_File_Info_Tag" Association="Self.FK_File_Info_Tag">
+      <End Role="Tag" EntitySet="Tag" />
+      <End Role="File_Info" EntitySet="File_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_Info_User" Association="Self.FK_File_Info_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="File_Info" EntitySet="File_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Token_User" Association="Self.FK_Token_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Token" EntitySet="Token" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DocMSModelStoreContainer" CdmEntityContainer="DocMSEntities1">
+    <EntitySetMapping Name="File_Info">
+      <EntityTypeMapping TypeName="DocMSModel.File_Info">
+        <MappingFragment StoreEntitySet="File_Info">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="F_Name" ColumnName="F_Name" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="UploadedAt" ColumnName="UploadedAt" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Tag_Id" ColumnName="Tag_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags">
+      <EntityTypeMapping TypeName="DocMSModel.Tag">
+        <MappingFragment StoreEntitySet="Tag">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tokens">
+      <EntityTypeMapping TypeName="DocMSModel.Token">
+        <MappingFragment StoreEntitySet="Token">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Token_Key" ColumnName="Token_Key" />
+          <ScalarProperty Name="Created_At" ColumnName="Created_At" />
+          <ScalarProperty Name="Expire_At" ColumnName="Expire_At" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DocMSModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
