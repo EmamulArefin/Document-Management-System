@@ -13,7 +13,6 @@ namespace Document_Management_System.Controllers
 {
     public class FileController : ApiController
     {
-        // GET: api/files
         [Logged]
         [HttpGet]
         [Route("api/files/all")]
@@ -29,7 +28,6 @@ namespace Document_Management_System.Controllers
                         f.Upload_Time,
                         f.User_Id,
                         f.Tag_Id
-                        // Exclude navigation properties
                     }).ToList();
 
                 return Request.CreateResponse(HttpStatusCode.OK, files);
@@ -40,7 +38,6 @@ namespace Document_Management_System.Controllers
             }
         }
 
-        // GET: api/files/{id}
         [Logged]
         [HttpGet]
         [Route("api/files/{id}")]
@@ -78,10 +75,6 @@ namespace Document_Management_System.Controllers
                         return Request.CreateResponse(HttpStatusCode.Unauthorized, "Invalid or expired token");
 
                     var tagId = Convert.ToInt32(httpRequest.Form["TagId"]);
-                    //var tag = TagData().Get(tagId);
-                    if (tagId == null)
-                        return Request.CreateResponse(HttpStatusCode.BadRequest, "Tag not found");
-
                     var postedFile = httpRequest.Files[0];
                     var filePath = HttpContext.Current.Server.MapPath("~/Uploads/" + postedFile.FileName);
                     postedFile.SaveAs(filePath);

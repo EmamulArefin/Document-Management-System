@@ -31,15 +31,11 @@ namespace BLL.Services
         public static FileDTO Create(FileDTO fileDto)
         {
             var file = mapper.Map<File_Info>(fileDto);
-
-            // Clear navigation to avoid EF error
             file.Tag = null;
             file.User = null;
             file.UploadedAt = DateTime.Now;
 
             var createdFile = DataAccess.FileManage().Create(file);
-
-            // Re-fetch with Tag & User loaded
             var fullFile = DataAccess.FileManage().Get(createdFile.Id);
             return mapper.Map<FileDTO>(fullFile);
         }

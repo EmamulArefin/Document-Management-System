@@ -36,9 +36,22 @@ namespace DocMS.Controllers
         [Route("api/logout")]
         public HttpResponseMessage Logout()
         {
-            var token = Request.Headers.Authorization.ToString();
-            var rettk = AuthService.Logout(token);
-            return Request.CreateResponse(HttpStatusCode.OK, rettk);
+            if (Request.Headers.Authorization == null)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Missing authorization token.");
+            }
+            var tokenKey = Request.Headers.Authorization.Parameter;
+            var result = AuthService.Logout(tokenKey);
+
+            if (result != null)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Invalid or expired token.");
+            }
         }
+
     }
 }
