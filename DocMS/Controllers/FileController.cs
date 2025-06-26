@@ -3,14 +3,18 @@ using BLL.Services;
 using DocMS.Auth;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Document_Management_System.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class FileController : ApiController
     {
         [Logged]
@@ -99,8 +103,6 @@ namespace Document_Management_System.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message + " | " + (ex.InnerException?.Message ?? ""));
             }
         }
-
-        // UPDATE
         [Logged]
         [HttpPut]
         [Route("api/files/update")]
@@ -124,24 +126,22 @@ namespace Document_Management_System.Controllers
         {
             try
             {
-                // Optional: Verify tag exists
                 var tag = TagService.Get(tagId);
                 if (tag == null)
                 {
                     return Request.CreateResponse(HttpStatusCode.NotFound, "Tag not found");
                 }
-
-                // Get files and transform for JSON
                 var files = FileService.GetByTag(tagId)
                     .Select(f => new
                     {
                         f.Id,
                         f.F_Name,
                         f.Upload_Time,
-                        ViewUrl = $"/api/files/view/{f.Id}",
-                        DownloadUrl = $"/api/files/download/{f.Id}",
+
+                        ViewUrl = f.Path,
                         Tag = new { Id = tag.Id, Name = tag.Name }
-                    }).ToList();
+                    })
+                    .ToList();
 
                 return Request.CreateResponse(HttpStatusCode.OK, files);
             }
@@ -150,7 +150,6 @@ namespace Document_Management_System.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
-
 
         [Logged] 
         [HttpDelete]

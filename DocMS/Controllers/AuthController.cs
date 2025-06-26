@@ -21,8 +21,7 @@ namespace DocMS.Controllers
         {
             var tk = AuthService.Auth(login.Email, login.Password);
             if (tk != null)
-            {
-                HttpContext.Current.Session["UserId"] = tk.Id;
+            { 
                 return Request.CreateResponse(HttpStatusCode.OK, tk);
             }
             else
@@ -45,7 +44,7 @@ namespace DocMS.Controllers
 
             if (result != null)
             {
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.OK, "Logout Successfull");
             }
             else
             {

@@ -13,6 +13,5 @@ namespace DAL.Interfaces
         List<CLASS> Get();
         CLASS Get(ID id);
         void Delete(ID id);
-
     }
 }
